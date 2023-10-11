@@ -1,0 +1,104 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Onest:wght@200&display=swap');
+
+html{
+    background-color: #6694da;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+h1:hover {
+    color: #4982d8;
+}
+
+h2{
+    margin-bottom: 0 ;
+    margin-top: 40px;
+}
+
+#mainCard{
+    margin-top: 3%;;
+    font-family: 'Neucha', cursive;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#inp_newTask{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inp{
+    margin-right: 10px;
+    width: 90%;
+}
+
+ul {
+    padding: 0;
+}
+li {
+    margin: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Onest', sans-serif;
+}
+
+li:hover {
+
+    background-color: #d3d3d3;
+
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #6694da;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: 'Onest', sans-serif;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #3c6fbb;
+}
+
+.type2:hover{
+    background-color: rgb(211, 21, 21);
+}
+
+#author{
+    font-family: 'Neucha', cursive;
+    color: #ffffff;
+}
