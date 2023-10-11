@@ -4,16 +4,16 @@
 if (isset($_POST['task'])) {
     $task = $_POST['task'];
 
-    // Sprawdź, czy tablica zadan już istnieje w sesji
+    // Check whether the task board already exists in the session
     session_start();
     if (!isset($_SESSION['tasks'])) {
         $_SESSION['tasks'] = [];
     }
 
-    // Dodaj zadanie do tablicy
+    // Add the task to the board
     $_SESSION['tasks'][] = $task;
 }
 
-// Przekieruj użytkownika z powrotem do strony głównej
+// Redirect the user back to the homepage
 header('Location: index.php');
 ?>
